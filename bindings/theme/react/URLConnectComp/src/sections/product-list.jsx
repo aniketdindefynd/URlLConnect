@@ -8,7 +8,7 @@ export function Component({ title = "URLConnect Extension" }) {
   const [iframeError, setIframeError] = useState(false);
   const [iframeLoaded, setIframeLoaded] = useState(false);
 
-  const timeoutRef = useRef(null);
+  const timeoutRef = useRef(null)
 
   // Fetch once on mount
   useEffect(() => {
