@@ -136,6 +136,7 @@ export function Component({ title = "URLConnect Extension" }) {
   // Show full-screen iframe
   return (
     <div className="hero-iframe-container">
+      <div>Hello World-=f qqfqlnf</div>
       <iframe
         src={framedSrc}
         className="hero-iframe"
